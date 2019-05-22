@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+section#score {
+  width: 100%;
+}
+
+#board {
+  width: 600px;
+  height: 600px;
+  margin: 1em auto;
+}
+
+#board  > div {    
+  border: 1px solid black;
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+
+section#score div {
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  padding: 0.5em;
+  background-color: rgba(211,211,211, 0.75);
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  box-shadow: 1px 1px 5px 1px lightgray;
+  margin: 1em auto;
+}
+
+
+
+
+.furry {
+  background-image: url('../images/furry.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.coin {
+  background-image: url('../images/coin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section#over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  background-color: rgba(255, 255, 0, 0.75);
+}
+
+section#over h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  color: brown;
+}
+
+.invisible {
+  display: none;
+  visibility: hidden;
+}
+
+.furry {
+  background: url('../images/furry.png') no-repeat;
+}
+
+.coin {
+  background: url('../images/coin.png') no-repeat;
+}
+
